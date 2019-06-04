@@ -2,11 +2,10 @@
 import javax.swing.JOptionPane
 
 fun main() {
-    val obx = Plantilla("Jose", "Baz Canarias", 31, 34)
-    val obxX = Xogador("pepe", "Perez Perez", 3, 21, 1, "patata")
-    val obxB = Adestrador("Carlos", "Martinez Baz", 32, 35, "244h")
-    val obxM = Masaxista("Marcos", "Santiago Castilla", 42, 30, 12, "alguna")
-
+    val obx = Plantilla("Miguel", "Bazo", 10, 20)
+    val obxX = Xogador("Roi", "Falcon", 7, 26, 18, "Delantero")
+    val obxB = Adestrador("Carlos", "Jimenez", 23, 40, "753158p")
+    val obxM = Masaxista("Juan", "Benitez", 30, 30, 6, "Fisioterapeuta")
     obx.concentrarse()
     obx.viaxar()
     JOptionPane.showMessageDialog(null, obx.toString())
