@@ -1,7 +1,5 @@
 
 import javax.swing.JOptionPane
-
-
 class Adestrador(nome: String, apelidos: String, id: Int, edad: Int, var idFederacion: String?) :
     Plantilla(nome, apelidos, id, edad) {
 
