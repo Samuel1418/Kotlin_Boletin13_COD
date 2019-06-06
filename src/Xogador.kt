@@ -8,6 +8,7 @@ class Xogador(nome: String, apelidos: String, id: Int, edad: Int, var dorsal: In
 
     private fun xogarPartido() {}
     private fun entrenar() {}
+    //Al igual que en java override
     override fun viaxar() {
         JOptionPane.showMessageDialog(null, "Viaxan os xogadores:" + super.nome!!)
     }
