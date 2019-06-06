@@ -10,7 +10,7 @@ class Masaxista(nome: String, apelidos: String, id: Int, edad: Int, var anosExpe
     }
 
     fun darMasaxes() {}
-
+ //To String igual que en java pero sin acabar en <;>
     override fun toString(): String {
         return "O masaxistata é:\n" + super.toString() + "\nAnosExperiencia=" + anosExperiencia + "\nTitulacion=" + titulacion
     }
